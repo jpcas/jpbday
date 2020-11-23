@@ -1,7 +1,7 @@
 require('./db/config');
 
 const express = require('express'),
-  birthdaysRouter = require('./routes/birthdays');
+  birthdaysRouter = require('./routes/birthday');
 
 const app = express();
 
